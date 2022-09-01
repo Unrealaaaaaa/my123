@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--这是排行榜第三之后的item样式-->
+
+    <!--总tv-->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:shadowRadius="30"
+        android:textSize="25dp" />
+
+    <!--总题数样式-->
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="总题数: "
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="15sp" />
+
+    <!--总题数数据-->
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="-19dp"
+        android:text="100"
+        android:textSize="15sp" />
+
+    <!--用户头像-->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/ic_circle" />
+
+    <!--用户的排名名次-->
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:text="4"
+        android:textColor="@color/color_03"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficultArray">
+        <item>学前班</item>
+        <item>小学1~2年级</item>
+        <item>小学3~4年级</item>
+        <item>挑战模式</item>
+    </string-array>
+</resources>

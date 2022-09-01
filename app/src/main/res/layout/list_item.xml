@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--这是排行榜前三的item样式-->
+
+    <!--总tv-->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:shadowRadius="30"
+        android:textSize="25dp" />
+
+    <!--总题数字样-->
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="总题数: "
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="15sp" />
+
+    <!--总题数的数据-->
+    <TextView
+        android:id="@+id/phb_count"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="-19dp"
+        android:text="100"
+        android:textSize="15sp" />
+
+    <!--用户图像-->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/ic_circle" />
+
+    <!--排名前三的图标-->
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/pg1" />
+
+
+</RelativeLayout>
